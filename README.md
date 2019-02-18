@@ -2,7 +2,9 @@
 nordicdatalab <a href='https:/nordicdatalab'><img src='man/figures/nordicdatalab_hex_logo.png' align="right" height="138.5" /></a>
 ==================================================================================================================================
 
-<a href='https:/nordicdatalab'><img src='man/figures/value_proposition.png' align="center" height="300" /></a>
+Officially announcing [www.nordicdatalab.dk](https://nordicdatalab.dk/): Data Science is hard - let us teach you how it is done! Learn a modern workflow in R with expert instructors from industry and academia - join us May 20-21st. Book now at [www.nordicdatalab.dk](https://nordicdatalab.dk/)
+
+<a href='https:/nordicdatalab'><img src='man/figures/ndl_announcement.png' align="center" height="300" /></a>
 
 About
 -----
