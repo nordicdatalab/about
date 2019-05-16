@@ -79,4 +79,4 @@ swap_dec_sep = function(x){ return( str_replace(x, "\\.", ",") ) }
 my_mtcars_dec = my_mtcars_tibble %>% mutate_if(is.numeric, swap_dec_sep)
 
 # Write to file
-write.xlsx(x = my_mtcars_dec, file = 'data/my_spreadsheet2.xlsx')
+write.xlsx(x = my_mtcars_dec, file = 'data/my_spreadsheet3.xlsx')
