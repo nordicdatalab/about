@@ -85,3 +85,9 @@ write.xlsx(x = my_mtcars_dec, file = 'data/my_spreadsheet3.xlsx')
 # ------------------------------------------------------------------------------
 mtcars2 = mtcars %>% rownames_to_column %>% as_tibble %>% rename(car = rowname)
 write_tsv(x = mtcars2, path = 'data/mtcars2.tsv')
+
+# Name data for separate()
+# ------------------------------------------------------------------------------
+d_names = tibble(names = c("Jane", "John"),
+                 relatives = c("William,Anna", "Carol,James,Billy"))
+write_tsv(x = d_names, path = 'data/name_data.tsv')
