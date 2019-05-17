@@ -80,3 +80,8 @@ my_mtcars_dec = my_mtcars_tibble %>% mutate_if(is.numeric, swap_dec_sep)
 
 # Write to file
 write.xlsx(x = my_mtcars_dec, file = 'data/my_spreadsheet3.xlsx')
+
+# Proper mtcars tsv
+# ------------------------------------------------------------------------------
+mtcars2 = mtcars %>% rownames_to_column %>% as_tibble %>% rename(car = rowname)
+write_tsv(x = mtcars2, path = 'data/mtcars2.tsv')
